@@ -3,11 +3,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>HomeLoan</groupId>
-    <artifactId>HomeLoan</artifactId>
+    <groupId>ANZ-Automation</groupId>
+    <artifactId>ANZ-Automation</artifactId>
     <version>1.0-SNAPSHOT</version>
-    
-    
+
+
   <properties>
 		<!-- compiler -->
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -88,7 +88,7 @@
             <version>2.2</version>
             <scope>test</scope>
         </dependency>
-        
+
         <!-- https://mvnrepository.com/artifact/com.sun/tools -->
 <dependency>
     <groupId>com.sun</groupId>
@@ -97,10 +97,9 @@
     <scope>system</scope>
     <systemPath>C:\Program Files\Java\jdk1.8.0_91\lib\tools.jar</systemPath>
 </dependency>
-        
+
 
     </dependencies>
 
 
 </project>
-
