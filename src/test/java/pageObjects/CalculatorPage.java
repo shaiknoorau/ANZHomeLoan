@@ -1,6 +1,5 @@
 package pageObjects;
 
-
 import static org.junit.Assert.assertTrue;
 
 import org.openqa.selenium.WebDriver;
@@ -25,7 +24,6 @@ public class CalculatorPage {
 
 	@FindBy(xpath = "//select[@title='Number of dependants']")
 	WebElement dependents;
-
 
 	@FindBy(xpath = "//input[@id='borrow_type_home']")
 	WebElement home_type;
@@ -62,19 +60,14 @@ public class CalculatorPage {
 
 	@FindBy(xpath = "//div[@class='borrow__error text--white clearfix']/child::div/span")
 	WebElement error_message;
-	
-	
 
-	// span[text()='We estimate you could
-	// borrow:']/child::span[@id='borrowResultTextAmount']
-
-	public void select_app_type() {
+	public void enter_details() {
 
 		application_type.click();
 
 		Select dependent = new Select(dependents);
 
-		dependent.selectByIndex(0);		
+		dependent.selectByIndex(0);
 
 		home_type.click();
 		total_income.click();
@@ -104,60 +97,44 @@ public class CalculatorPage {
 
 	public void verify_outcome() {
 
-		System.out.println(result.getAttribute("value"));
-
 		assertTrue(result.getAttribute("value").equals("508,000"));
 	}
 
-	public void start_over() {
+	public void click_start_over() {
 
 		start_over.click();
-		
-		  assertTrue(application_type.isSelected());
-		  Select dependent = new Select(dependents);	
 
+	}
 
-		  
-		  assertTrue(dependent.getFirstSelectedOption().getText().equals("0"));
-		  
-		  assertTrue(home_type.isSelected());
-		 
+	public void validate_start_over() {
+
+		assertTrue(application_type.isSelected());
+		Select dependent = new Select(dependents);
+		assertTrue(dependent.getFirstSelectedOption().getText().equals("0"));
+		assertTrue(home_type.isSelected());
+
 		assertTrue(total_income.getAttribute("value").equals("0"));
 		assertTrue(other_income.getAttribute("value").equals("0"));
+		
 		assertTrue(living_expenses.getAttribute("value").equals("0"));
 		assertTrue(home_loan_payment.getAttribute("value").equals("0"));
 		assertTrue(other_loan_payment.getAttribute("value").equals("0"));
 		assertTrue(other_commitments.getAttribute("value").equals("0"));
 		assertTrue(credit_card_limits.getAttribute("value").equals("0"));
-
 	}
-
-	public void error_message() {
+	
+	public void click_workout_with_only_living_expenses() {
 
 		living_expenses.click();
 		living_expenses.sendKeys("1");
 		workout_button.click();
+	}
+
+	public void validate_error_message() {
+
 		String message = "Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 035 500.";
 		assertTrue(error_message.getText().equalsIgnoreCase(message));
 
 	}
-
-	// input[@id='application_type_single']
-
-	// select[@title='Number of dependants']
-
-	// input[@id='borrow_type_home']
-
-	// input[@aria-labelledby='q2q1']
-
-	// input[@aria-labelledby='q2q2']
-
-	// input[@aria-labelledby='q3q1']
-	// input[@aria-labelledby='q3q2']
-	// input[@aria-labelledby='q3q3']
-	// input[@aria-labelledby='q3q4']
-	// input[@aria-labelledby='q3q5']
-
-	// button[text()='Work out how much I could borrow']
 
 }

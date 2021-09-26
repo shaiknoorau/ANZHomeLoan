@@ -13,7 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 		monochrome=true,
 		publish = true,
 		plugin = {"pretty","html:target/cucumber-report.html"},
-		tags = "@e2etest"
+		tags = "@Test1 or @Test2 or @Test3"
 		)
 public class TestRun {
 
