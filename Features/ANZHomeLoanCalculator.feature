@@ -1,4 +1,4 @@
-Feature: ANZ Calculator test
+Feature: ANZ Home Loan Calculator automated test
 
 @Test1
 Scenario: Work out borrowing estimate using calculator

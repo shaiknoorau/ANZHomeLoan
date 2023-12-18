@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="568fcb47-cbb8-4018-a9a8-4e03f3d4dc96" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/LatestDriver/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/CalculatorPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/CalculatorPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeLoan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeLoan.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjects/CalculatorPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjects/CalculatorPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/Steps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testRunner/TestRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testRunner/TestRun.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,62 +18,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Features/ANZHomeLoanCalculator.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" selection-start-column="28" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/CalculatorPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-690">
-              <caret line="63" column="29" lean-forward="true" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/Steps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="89" column="27" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testRunner/TestRun.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -94,7 +35,15 @@
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/Steps.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageObjects/CalculatorPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/testRunner/TestRun.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -212,80 +161,14 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="HomeLoan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeLoan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeLoan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeLoan" type="462c0819:PsiDirectoryNode" />
-              <item name="Features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeLoan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeLoan" type="462c0819:PsiDirectoryNode" />
-              <item name="LatestDriver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeLoan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeLoan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeLoan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeLoan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeLoan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeLoan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeLoan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeLoan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pageObjects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeLoan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeLoan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stepDefinitions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeLoan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeLoan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testRunner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeLoan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeLoan" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/LatestDriver" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -340,15 +223,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRun - 2023.12.18 at 17h 33m 16s.xml">
-      <configuration name="TestRun" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRun - 2023.12.18 at 17h 34m 15s.xml">
-      <configuration name="TestRun" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRun - 2023.12.18 at 17h 36m 54s.xml">
-      <configuration name="TestRun" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestRun - 2023.12.18 at 17h 37m 56s.xml">
       <configuration name="TestRun" configurationId="JUnit" />
     </history-entry>
@@ -370,11 +244,20 @@
     <history-entry file="TestRun - 2023.12.18 at 18h 02m 11s.xml">
       <configuration name="TestRun" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestRun - 2023.12.18 at 18h 03m 27s.xml">
+      <configuration name="TestRun" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRun - 2023.12.18 at 18h 05m 12s.xml">
+      <configuration name="TestRun" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRun - 2023.12.18 at 19h 08m 11s.xml">
+      <configuration name="TestRun" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1440" height="777" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24248926" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -388,7 +271,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.72164947" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007153" side_tool="true" weight="0.32947975" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -406,28 +289,25 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/target/test-classes/pageObjects/CalculatorPage.class">
+    <entry file="file://$PROJECT_DIR$/target/test-classes/pageObjects/CalculatorPage.class" />
+    <entry file="file://$PROJECT_DIR$/target/test-classes/testRunner/TestRun.class" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/Steps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="1260">
+          <caret line="89" column="27" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
           <folding>
-            <element signature="e#0#4746#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/test-classes/testRunner/TestRun.class">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/CalculatorPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="66">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <element signature="e#0#595#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
         </state>
       </provider>
     </entry>
@@ -438,30 +318,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefinitions/Steps.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="89" column="27" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/CalculatorPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-690">
-          <caret line="63" column="29" lean-forward="true" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="299">
+          <caret line="89" column="21" lean-forward="true" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testRunner/TestRun.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
