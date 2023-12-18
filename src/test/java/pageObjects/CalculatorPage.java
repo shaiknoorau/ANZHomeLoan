@@ -49,16 +49,18 @@ public class CalculatorPage {
 	@FindBy(xpath = "//input[@aria-labelledby='q3q5']")
 	WebElement credit_card_limits;
 
-	@FindBy(xpath = "//button[text()='Work out how much I could borrow']")
+	@FindBy(xpath = "//*[@id='btnBorrowCalculater']")
 	WebElement workout_button;
 
-	@FindBy(xpath = "//span[text()='We estimate you could borrow:']/child::span[@id='borrowResultTextAmount']")
+	////button[text()='Work out how much I could borrow']
+
+	@FindBy(xpath = "//*[@id='borrowResultTextAmount']")
 	WebElement result;
 
-	@FindBy(xpath = "//div[@class='borrow__result text--white clearfix']/child::div/button[text()='Start over']")
+	@FindBy(xpath = "//button[@aria-label='Start over']")
 	WebElement start_over;
 
-	@FindBy(xpath = "//div[@class='borrow__error text--white clearfix']/child::div/span")
+	@FindBy(xpath = "//div[@class='borrow__error__text']")
 	WebElement error_message;
 
 	public void enter_details() {
@@ -97,7 +99,8 @@ public class CalculatorPage {
 
 	public void verify_outcome() {
 
-		assertTrue(result.getAttribute("value").equals("508,000"));
+
+		assertTrue(result.getAttribute("value").equals("407,000"));
 	}
 
 	public void click_start_over() {
@@ -132,7 +135,7 @@ public class CalculatorPage {
 
 	public void validate_error_message() {
 
-		String message = "Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 035 500.";
+		String message = "Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 100 641.";
 		assertTrue(error_message.getText().equalsIgnoreCase(message));
 
 	}

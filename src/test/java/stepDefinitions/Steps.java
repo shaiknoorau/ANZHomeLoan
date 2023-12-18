@@ -23,7 +23,7 @@ public class Steps {
 		
 		System.out.println(System.getProperty("user.dir"));
 		
-		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"//LatestDriver/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"//LatestDriver/chromedriver");
 		 
 		driver = new ChromeDriver(); 
 		
